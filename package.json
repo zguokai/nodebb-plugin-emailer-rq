@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-emailer-rq",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nodebb-plugin-emailer-rq",
   "main": "index.js",
   "dependencies": {
