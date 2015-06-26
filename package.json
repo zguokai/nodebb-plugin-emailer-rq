@@ -1,0 +1,17 @@
+{
+  "name": "nodebb-plugin-emailer-rq",
+  "version": "0.0.1",
+  "description": "nodebb-plugin-emailer-rq",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "~0.6.0",
+    "path": "~0.4.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zguokai/nodebb-plugin-emailer-rq.git"
+  }
+}

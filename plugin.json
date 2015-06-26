@@ -1,0 +1,14 @@
+{
+    "id": "nodebb-plugin-emailer-rq",
+    "url": "https://github.com/zguokai/nodebb-plugin-emailer-rq.git",
+    "name": "Emailer (Local for Ricequant)",
+    "description": "Allows NodeBB to send emails via SMTP for Ricequant",
+    "library": "./index.js",
+    "templates": "./templates",
+    "hooks": [
+        { "hook": "action:email.send", "method": "send" },
+        { "hook": "filter:admin.header.build", "method": "admin.menu" },
+        { "hook": "static:app.load", "method": "init"}
+    ],
+    "compatibility": "~0.5.0"
+}
